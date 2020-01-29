@@ -6,10 +6,10 @@ import { ElementoComponent } from './pages/elemento/elemento.component';
 
 
 const routes: Routes = [
-  { path: '', component: ArchivoComponent },
-  { path: 'sobre mi', component: SobremiComponent },
+  { path: 'archivo', component: ArchivoComponent },
+  { path: 'sobremi', component: SobremiComponent },
   { path: 'elemento', component: ElementoComponent },
-  { path: '**', pathMatch: 'full', redirectTo: ''}
+  { path: '**', pathMatch: 'full', redirectTo: 'archivo'}
 ];
 
 @NgModule({
