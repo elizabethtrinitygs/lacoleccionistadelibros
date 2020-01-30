@@ -8,6 +8,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { ArchivoComponent } from './pages/archivo/archivo.component';
 import { SobremiComponent } from './pages/sobremi/sobremi.component';
 import { ElementoComponent } from './pages/elemento/elemento.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ElementoComponent } from './pages/elemento/elemento.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
