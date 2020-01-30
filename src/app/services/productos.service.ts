@@ -10,5 +10,8 @@ export class ProductosService {
     this.cargarProductos();
   }
 
-  private cargarProductos() {}
+  private cargarProductos() {
+    this.http.get('https://lacoleccionista-delibros.firebaseio.com/productos_idx.json');
+    
+  }
 }
