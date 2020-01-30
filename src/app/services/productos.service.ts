@@ -1,9 +1,14 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductosService {
 
-  constructor() { }
+  constructor(private http: HttpClient) { 
+    this.cargarProductos();
+  }
+
+  private cargarProductos() {}
 }
