@@ -8,7 +8,7 @@ import { ElementoComponent } from './pages/elemento/elemento.component';
 const routes: Routes = [
   { path: 'archivo', component: ArchivoComponent },
   { path: 'sobremi', component: SobremiComponent },
-  { path: 'elemento', component: ElementoComponent },
+  { path: 'elemento/:id', component: ElementoComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'archivo'}
 ];
 
