@@ -31,13 +31,15 @@
 <section class="ae-container-fluid ae-container-fluid--inner loading rk-portfolio ">
 
   <div class="rk-portfolio__items">
-    <a routerLink="/elemento"
+    <a *ngFor="let producto of productosService.productos"
+     routerLink="/elemento"
        class="rk-item rk-item--flex item-1 rk-size-12 rk-tosize-6 rk-landscape ">
       <div class="item-meta">
         <h2>Essential Stationery</h2>
         <p>Branding</p>
       </div>
-    </a>
+    </a
+    >
     
     
   </div>
