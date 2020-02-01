@@ -19,10 +19,11 @@ productos: Producto[] = [];
     this.http.get('https://lacoleccionista-delibros.firebaseio.com/productos_idx.json')
     .subscribe((resp: Producto[]) => {
 
-      console.log(resp);
-
       this.productos = resp;
       this.cargando = false;
-    })
+    });
+  }
+  getProducto(id: string) {
+    return this.http.get(`https://lacoleccionista-delibros.firebaseio.com/productos/${id}.json`);
   }
 }
