@@ -23,13 +23,11 @@ export class ElementoComponent implements OnInit {
       // console.log(parametros['id']);
       this.productoService.getProducto(parametros['id'])
       .subscribe((producto: ProductoDescripcion) => {
-        
-        console.log(producto);
 
         this.id = parametros['id'];
         this.producto = producto;
-      })
-    })
+      });
+    });
   }
 
 }
