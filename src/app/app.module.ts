@@ -9,6 +9,7 @@ import { ArchivoComponent } from './pages/archivo/archivo.component';
 import { SobremiComponent } from './pages/sobremi/sobremi.component';
 import { ElementoComponent } from './pages/elemento/elemento.component';
 import {HttpClientModule} from '@angular/common/http';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {HttpClientModule} from '@angular/common/http';
     FooterComponent,
     ArchivoComponent,
     SobremiComponent,
-    ElementoComponent
+    ElementoComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
