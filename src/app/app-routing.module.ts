@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'archivo', component: ArchivoComponent },
   { path: 'sobremi', component: SobremiComponent },
   { path: 'elemento/:id', component: ElementoComponent },
-  { path: 'searh/:termino', component: SearchComponent },
+  { path: 'search/:termino', component: SearchComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'archivo'}
 ];
 
