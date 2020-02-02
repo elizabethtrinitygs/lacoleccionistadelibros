@@ -13,6 +13,8 @@ Convertir una plantilla HTML a una aplicación de Angular.
 - Desplegar el sitio web con GitHub
 
 -----------------------------------------
+El tiempo invertido en desarrollar este proyecto fue de 5 días.
+
 ![Certificado curso de Angular]
 (https://github.com/elizabethtrinitygs/lacoleccionistadelibros/blob/master/certificado-01-angular.jpg)
 
