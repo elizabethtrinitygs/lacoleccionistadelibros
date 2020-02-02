@@ -1,5 +1,20 @@
 # La Coleccionista de Libros
 
-Pagina demo para resolver practica del curso de UDEMY "convertir un template html a Angular8 "
+Convertir una plantilla HTML a una aplicación de Angular.
+
+
+¿Qué aprendí en este curso?
+
+- Crear componentes, servicios en Angular
+
+- Crear rutas utilizando módulos
+
+
+- Usar Firebase como backend ( Firebase REST API)
+
+- Desplegar el sitio web con GitHub
+
+-----------------------------------------
+
 
 Todo el contenido de este sitio se descargo de los recursos proporcionados por el curso online. Algunas imagenes y textos se han descargado de internet.
